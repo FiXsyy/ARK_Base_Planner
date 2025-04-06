@@ -1,0 +1,32 @@
+.button {
+    width: 40%;
+    max-height: none;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    transition-duration: 0.25s;
+}
+
+.button:hover {
+    scale: 1.1 1.1;
+    transition-property: scale;
+    transition-duration: 0.5s;
+}
+
+.button:active {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    transition-duration: 0.15s;
+    transition-property: background-color;
+    transition-timing-function: ease;
+}

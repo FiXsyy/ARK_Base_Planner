@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c2b5c58d06976df4eb0cc0b7073c11fb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - defaultMat: {fileID: 2100000, guid: 56912ea03addce5468e8f2fd14154585, type: 2}
+  - overlapMat: {fileID: 2100000, guid: d05d9b8534d60084c95aeceab03dbbd5, type: 2}
+  - squarePrefab: {fileID: 8331629039880209164, guid: d424d0bf092a41e429db865ddff70ac5, type: 3}
+  - trianglePrefab: {fileID: 8331629039880209164, guid: 5096019b3e2dba445ac74f3ff593bf79, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

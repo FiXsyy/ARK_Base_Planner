@@ -1,0 +1,79 @@
+.panel {
+    background-color: rgb(50, 50, 50);
+    width: auto;
+    height: auto;
+    max-height: none;
+    min-height: auto;
+    align-items: stretch;
+    align-self: flex-end;
+    margin-top: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    padding-top: 10px;
+    padding-right: 0;
+    padding-bottom: 10px;
+    padding-left: 0;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    position: relative;
+    flex-wrap: nowrap;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-left-color: rgba(255, 255, 255, 0.1);
+    border-right-color: rgba(255, 255, 255, 0.1);
+    border-top-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.16);
+    scale: 1 1;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+    -unity-background-scale-mode: stretch-to-fill;
+    top: 40%;
+}
+
+.button:hover {
+    scale: 1.1 1.1;
+}
+
+.button:checked {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    transition-property: all;
+    transition-duration: 0.15s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.button {
+    opacity: 1;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    background-color: rgba(0, 255, 0, 0);
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    -unity-text-align: upper-left;
+    width: 80px;
+    height: 80px;
+    transition-property: scale;
+    transition-duration: 0.25s;
+}
+
+.button .unity-radio-button__checkmark-background {
+    visibility: visible;
+    display: none;
+}

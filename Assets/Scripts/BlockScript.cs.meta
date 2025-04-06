@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3caa9e50d3171f549a22a3fddf1ded86
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - defaultMat: {fileID: 2100000, guid: f0d0f63ad921f404ab3ca45456c66e30, type: 2}
+  - selectedMat: {fileID: 2100000, guid: 490d53a0baf35c742ad82fc0726e25f8, type: 2}
+  - triangleSlotPrefab: {fileID: 7236276049886407887, guid: 14cfd4d3f5368df4288e316fe07967d9, type: 3}
+  - squareSlotPrefab: {fileID: 7236276049886407887, guid: 4ac2e7266f508b8489555c20c3eb520f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

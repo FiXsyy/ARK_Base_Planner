@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Block%20Selection/BlockSelectionUI.uss?fileID=7433441132597879392&amp;guid=f4c66fd599c581746a4b4c0809213177&amp;type=3#BlockSelectionUI" />
+    <ui:VisualElement name="Panel" class="panel" style="flex-grow: 1; right: auto; align-items: center; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px; padding-top: 8px; padding-bottom: 8px; max-height: 200px; width: 110px;">
+        <ui:RadioButton name="TriangleSelect" value="false" focusable="false" class="button" style="background-image: url(&quot;project://database/Assets/UI/Block%20Selection/TriangleSelect%201.png?fileID=2800000&amp;guid=f9cf87276dc131c47a36a102db7ae02e&amp;type=3#TriangleSelect 1&quot;); transition-property: all; transition-duration: 0.15s;" />
+        <ui:RadioButton name="SquareSelect" value="true" toggle-on-label-click="false" class="button" style="background-image: url(&quot;project://database/Assets/UI/Block%20Selection/SquareSelect%201.png?fileID=2800000&amp;guid=52ed4158739a3b141b24ffc8956dfca2&amp;type=3#SquareSelect 1&quot;);" />
+    </ui:VisualElement>
+</ui:UXML>
