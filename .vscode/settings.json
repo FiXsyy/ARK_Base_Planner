@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "ARK Base Planner.sln"
+    "dotnet.defaultSolution": "ARK_Base_Planner.sln"
 }
